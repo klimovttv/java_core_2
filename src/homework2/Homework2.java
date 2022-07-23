@@ -22,16 +22,18 @@ public class Homework2 {
         // Отправляет - имеется в виду, печатает на экран: "пошел с сад", "пошел в младшую школу" и т.д.
         // Проверьте работоспособность условий, через изменение значения переменной.
 
+        System.out.println();
+
         if (ageChildren <= 6) {
-            System.out.println("\nпошел в сад");
+            System.out.println("пошел в сад");
         }
         else if (ageChildren <= 11 ) {
-            System.out.println("\nпошел в младшую школу");
+            System.out.println("пошел в младшую школу");
         }
         else if (ageChildren <= 17) {
-            System.out.println("\nпошел в среднюю школу");
+            System.out.println("пошел в среднюю школу");
         }
-        else {System.out.println("\nпошел в университет");
+        else {System.out.println("пошел в университет");
         }
 
 
